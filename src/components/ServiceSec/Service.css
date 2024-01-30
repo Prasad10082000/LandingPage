@@ -1,0 +1,66 @@
+.Servicesdiv{
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+  
+  h4 {
+    font-size: 32px;
+  }
+  .para5{
+    font-size: 24px;
+  }
+  .CardDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+      background-color: #F9F9F9;
+  }
+  
+  .CardDiv > div {
+    width: calc(25% - 20px); 
+    margin: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+    text-align: center;
+    background: #fff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .titles{
+    font-weight: 700;
+    font-size: 18px;
+  }
+  @media (max-width: 1200px) {
+    .CardDiv > div {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .CardDiv > div {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .CardDiv > div {
+      width: 100%;
+    }
+  }
+
+  .startbtn2{
+    padding: 16.5px 64px 16.5px 64px;
+    border-radius: 32px;
+    border: none;
+    color: #fff;
+    background: #0078FF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+  }

@@ -1,0 +1,43 @@
+.Masterdiv h3{
+    font-size: 32px;
+}
+.Masterdiv{
+    margin: 80px 80px ;
+}
+.SubMaster{
+    display: flex;
+    flex-direction: column;
+}
+.titlesub1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+.content1{
+    text-align: left;
+    font-size: 24px;
+}
+.b1{
+    display: flex;
+    padding: 16.5px 64px 16.5px 64px;  
+    border: none; 
+    color: #fff;
+    background: #0078FF;
+    border-radius: 32px;
+    font-weight: 700;
+}
+.imgmaster{
+    width: 1200px;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .SubMaster{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .SubMaster2{
+        margin: 0px 32px 0px 32px;
+    }
+}

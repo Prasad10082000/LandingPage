@@ -1,0 +1,26 @@
+.Maindiv {
+  background: url("../../assets/Homebg.svg");
+}
+.Submain h1 {
+  font-size: 48px;
+}
+.Submain h1 span {
+  color: #0078ff;
+}
+.para1 {
+  font-size: 24px;
+}
+.getbtn {
+  padding: 13px 136px 13px 136px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #0078ff;
+  font-weight: 700;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+}
+.coverimg {
+  max-width: 100%;
+  height: auto;
+}
