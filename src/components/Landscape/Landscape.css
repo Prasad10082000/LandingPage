@@ -1,0 +1,76 @@
+.Landsubmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card1 {
+  display: flex;
+  border-radius: 16px;
+  border: 1px;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0 0 5px 0 #efefef;
+  padding: 10px 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: 20px;
+}
+.head1 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.head2 {
+  text-align: left;
+}
+.cardimg {
+  display: none;
+}
+
+
+@media screen and (min-width: 425px) {
+  .cardimg {
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .Landsubmain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card1 {
+    display: flex;
+    border-radius: 16px;
+    border: 1px;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 0 5px 0 #efefef;
+    padding: 10px 32px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 20px;
+  }
+  .head1 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .head2 {
+    text-align: left;
+  }
+}
